@@ -360,7 +360,14 @@ print(isinstance(x,int))
 Output: True
 ```
 
+**Python Operators**<br>
 
+5/2=2.5<br>
+5%2=1(gives remainder) <br>
+5**2=5*5 <br>
+5//2=2 (rounds to nearest number)<br>
+
+and & ,or | , not ! <br>
 
  
 
