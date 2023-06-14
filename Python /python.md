@@ -248,9 +248,19 @@ Example
 The split() method splits the string into substrings if it finds instances of the separator:
 
 a = " Hello, World! "
-print(a.split(",")
+print(a.split(","))
 Output:['Hello','World!']
 ```
+
+```
+Example
+The swapcase() Swaps cases, lower case becomes upper case and vice versa.
+
+a = " Hello, World! "
+print(a.swapcase())
+Output:hELLO, wORLD!
+```
+
 
 **String Concatenation**<br>
 
@@ -309,6 +319,16 @@ print(myorder.format(quantity, itemno, price))
 Output: I want to pay 49.95 dollars for 3 pieces of item 567.
 ```
 
+**Escape Character**<br>
+\" Double Quote <br>
+\'	Single Quote	<br>
+\\	Backslash	<br>
+\n	New Line<br>
+
+```
+txt = "We are the so-called \"Vikings\" from the north."
+Output: We are the so-called "Vikings" from the north.
+```
 
 
 
