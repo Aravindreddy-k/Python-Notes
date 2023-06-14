@@ -330,6 +330,35 @@ txt = "We are the so-called \"Vikings\" from the north."
 Output: We are the so-called "Vikings" from the north.
 ```
 
+**Boolean Values**<br>
+
+**bool()** function gives you **True** or **False** in return. <br>
+
+```
+Example
+will return True.
+bool("sda") 
+bool(125)
+bool(2.8844)
+The following will return False:
+
+bool(False)
+bool(None)
+bool(0)
+bool("")
+bool(())
+bool([])
+bool({})
+```
+
+**isinstance()** can be used to determine if an object is of a certain data type. <br>
+
+```
+Example
+x=20
+print(isinstance(x,int))
+Output: True
+```
 
 
 
