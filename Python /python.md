@@ -300,6 +300,7 @@ Output: I want 3 pieces of item 567 for 49.95 dollars.
 
 ```
 Example
+can also use index number {0}
 quantity = 3
 itemno = 567
 price = 49.95
