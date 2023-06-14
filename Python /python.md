@@ -186,7 +186,7 @@ Output:avi
 Example
 b="Aravind, Reddy!"
 print(b[:5])
-Output:ARavi
+Output:Aravi
 ```
 
 ```
@@ -206,6 +206,80 @@ print(b[-5:-2])
 Output:edd
 ```
 
+**Python - Modify Strings**
+```
+Example
+The upper() method returns the string in upper case:
+
+a = "Hello, World!"
+print(a.upper())
+Output:HELLO, WORLD!
+```
+
+```
+Example
+The lower() method returns the string in lower case:
+
+a = "Hello, World!"
+print(a.lower())
+Output:hello, world!
+```
+
+```
+Example
+The strip() method removes any whitespace from the beginning or the end:
+
+a = " Hello, World! "
+print(a.strip())
+Output:Hello, World!
+```
+
+```
+Example
+The replace() method replaces a string with another string:
+
+a = " Hello, World! "
+print(a.replace("H","C"))
+Output:Cello, World!
+```
+
+```
+Example
+The split() method splits the string into substrings if it finds instances of the separator:
+
+a = " Hello, World! "
+print(a.split(",")
+Output:['Hello','World!']
+```
+
+**String Concatenation**<br>
+
+To concatenate, or combine, two strings you can use the + operator.<br>
+```
+Example
+a = "Hello"
+b = "World"
+c = a + b
+print(c)
+Output:HelloWorld
+```
+
+```
+Example
+To add a space between them, add a " ":
+
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
+Output:Hello World
+```
+
+
+
+
+
+ 
 
 
 
