@@ -151,5 +151,65 @@ import random
 print(random.randrange(1, 10))
 output: Gets the Random value between (1,10)
 ```
+**String**<br>
+"Aravind" same as 'Aravind' <br>
+for multi line string u can use("""/''')
+
+```
+a=""" cnslmlmsmhwjcwcw
+wvvvedvevevevv
+vcevevevvwfvwv
+wf3wfghhhngff"""
+print(a)
+```
+To get the length of a string, use the **len()** function (the length includes every space). <br>
+```
+Example
+b="Aravind, Reddy!"
+print(len(b))
+Output:15
+```
+
+**Python - Slicing Strings**
+It  can return a range of characters.Specify the start index and the end index, separated by a colon, to return a part of the string.<br>
+**Note**: end index is not included<br>
+
+```
+Example
+b="Aravind, Reddy!"
+print(b[2:5])
+Output:avi
+```
+**Note**: The first character starts with index 0
+
+```
+Example
+b="Aravind, Reddy!"
+print(b[:5])
+Output:ARavi
+```
+
+```
+Example
+b="Aravind, Reddy!"
+print(b[4:])
+Output:nd, Reddy!
+```
+**Negative Indexing**<br>
+
+starts from the end with index -1 <br>
+
+```
+Example
+b="Aravind, Reddy!"
+print(b[-5:-2])
+Output:edd
+```
+
+
+
+
+
+
 
   
