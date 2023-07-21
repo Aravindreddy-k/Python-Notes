@@ -63,7 +63,7 @@ Each word starts with a capital letter:<br>
 MyVariableName = "John"
 ```
 
-**Pascal Case**<br>
+**Snake Case**<br>
 Each word is separated by an underscore character::<br>
 ```
 my_variable_name = "John"
